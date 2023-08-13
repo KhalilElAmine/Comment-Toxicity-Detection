@@ -61,7 +61,7 @@ source comment-toxicity/bin/activate
      ```
 3. Navigate to the provided URL to open the gradio app
    ![Gradio App](GradioApp.png)
-
+4. You can signal a comment allowing you to save the comment and prediction result in a csv file. Offering a way for further data collection.
 ### Training your own model
 To train your own comment toxicity model, follow these steps:
 
