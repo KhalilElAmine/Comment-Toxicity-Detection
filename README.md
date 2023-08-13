@@ -11,8 +11,6 @@
   - [Installation](#installation)
   - [Usage](#usage)
 - [Training Your Own Model](#training-your-own-model)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 
@@ -42,3 +40,30 @@ The Comment Toxicity App is a tool designed to evaluate the toxicity of comments
    ```bash
    git clone https://github.com/your-username/comment-toxicity-app.git
    cd comment-toxicity-app ```
+2. Set up and activate your virtual environment:
+   ```bash
+   python -m venv comment-toxicity
+   source comment-toxicity/bin/activate
+   ```
+3. Install required dependencies
+   ```bash
+   pip install gradio jinja2 tensorflow==2.12.0
+    ```
+### Usage
+
+1. Activate your virtual environment
+  ```bash
+source comment-toxicity/bin/activate
+ ```
+2. Run the interface.py
+    ```bash
+    python interface.py
+     ```
+3. Navigate to the provided URL to open the gradio app
+
+### Training your own model
+To train your own comment toxicity model, follow these steps:
+
+1. Open and run the training_notebook.ipynb notebook in a Jupyter environment.
+2. Modify the notebook as needed, adjusting hyperparameters, preprocessing, and architecture.
+3. Save the trained model weights.
