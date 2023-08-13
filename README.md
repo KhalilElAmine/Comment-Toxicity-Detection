@@ -60,6 +60,7 @@ source comment-toxicity/bin/activate
     python interface.py
      ```
 3. Navigate to the provided URL to open the gradio app
+   ![Gradio App]("GradioApp.png)
 
 ### Training your own model
 To train your own comment toxicity model, follow these steps:
